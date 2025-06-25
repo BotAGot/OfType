@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace OfType
 {
-    internal class OType
+    internal class OType : IOfType
     {
         public IEnumerable<T> GetOfType<T>(IEnumerable enumerable)
         {
